@@ -1,16 +1,4 @@
 {
-    "myNixPythonPackages": {
-        "branch": "main",
-        "description": null,
-        "homepage": null,
-        "owner": "AtilaSaraiva",
-        "repo": "myNixPythonPackages",
-        "rev": "baf70b22e90814dfa7552f2a5562d78a475daf09",
-        "sha256": "084h5z253krqf07vmh434amwwc1764k3sl1dlw7dhgibby5g80xa",
-        "type": "tarball",
-        "url": "https://github.com/AtilaSaraiva/myNixPythonPackages/archive/baf70b22e90814dfa7552f2a5562d78a475daf09.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",
@@ -29,10 +17,10 @@
         "homepage": "",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "90cd5459a1fd707819b9a3fb9c852beaaac3b79a",
-        "sha256": "0vq7azvq8kh2101gfl9h31krqk8alcn421sh3ibdgl7ria3iw0ag",
+        "rev": "6512b21eabb4d52e87ea2edcf31a288e67b2e4f8",
+        "sha256": "1kc31gblm51459a2hrq2ni5ilw47nybgizcr9i5agmc1lvadc8mi",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/90cd5459a1fd707819b9a3fb9c852beaaac3b79a.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/6512b21eabb4d52e87ea2edcf31a288e67b2e4f8.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
