@@ -1,14 +1,10 @@
 { sources ? import ./nix/sources.nix }:
-with import sources.nixpkgs {
-  overlays = [
-    (import sources.myNixPythonPackages)
-  ];
-};
+with import sources.nixpkgs { };
 
 let
   my-python-packages = python-packages: with python-packages; [
     matplotlib
-    numpy
+    devito
     # other python packages you want
   ];
   python-with-my-packages = python3.withPackages my-python-packages;
@@ -20,5 +16,6 @@ mkShell {
   ];
 
   shellHooks = ''
+    echo "Devito development environment"
   '';
 }
